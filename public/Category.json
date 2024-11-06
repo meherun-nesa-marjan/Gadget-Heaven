@@ -1,0 +1,35 @@
+[ 
+  {
+    "product_id": "1",
+    "category": "All"
+   
+  },
+
+    {
+      "product_id": "2",
+      "category": "Phones"
+     
+    },
+  
+    {
+      "product_id": "3",
+      "category": "MacBook"
+    },
+    
+    {
+      "product_id": "4",
+      "category": "Computers"
+    },
+   
+    {
+      "product_id": "5",
+      "category": "Accessories"
+    },
+    {
+      "product_id": "6",
+      "category": "iPhones"
+      
+    }
+  
+  ]
+  

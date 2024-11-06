@@ -1,0 +1,130 @@
+[
+    {
+        "id": "P001",
+        "product_name": "iPhone 14 Pro",
+        "reviewer": "John Doe",
+        "rating": 5,
+        "comment": "Excellent phone, love the display and camera!",
+        "date": "2024-11-05"
+    },
+    {
+        "id": "P001",
+        "product_name": "iPhone 14 Pro",
+        "reviewer": "Jane Smith",
+        "rating": 4,
+        "comment": "Great phone but a bit pricey. Still worth it.",
+        "date": "2024-11-03"
+    },
+    {
+        "id": "P001",
+        "product_name": "iPhone 14 Pro",
+        "reviewer": "Alex Green",
+        "rating": 5,
+        "comment": "The best iPhone ever made, smooth and responsive.",
+        "date": "2024-11-01"
+    },
+    {
+        "id": "P001",
+        "product_name": "iPhone 14 Pro",
+        "reviewer": "Mary Adams",
+        "rating": 4,
+        "comment": "Good, but I expected a better battery life for the price.",
+        "date": "2024-10-28"
+    },
+    {
+        "id": "P002",
+        "product_name": "Phone SE",
+        "reviewer": "Alice Green",
+        "rating": 5,
+        "comment": "Perfect for the price. Great performance!",
+        "date": "2024-11-02"
+    },
+    {
+        "id": "P002",
+        "product_name": "Phone SE",
+        "reviewer": "Bob Brown",
+        "rating": 4,
+        "comment": "Good phone, but the battery life could be better.",
+        "date": "2024-10-28"
+    },
+    {
+        "id": "P002",
+        "product_name": "Phone SE",
+        "reviewer": "Daniel Scott",
+        "rating": 5,
+        "comment": "Best budget phone for iOS lovers.",
+        "date": "2024-10-20"
+    },
+    {
+        "id": "P002",
+        "product_name": "Phone SE",
+        "reviewer": "Lily Turner",
+        "rating": 4,
+        "comment": "Decent performance, but lacks some modern features.",
+        "date": "2024-10-15"
+    },
+    {
+        "id": "P003",
+        "product_name": "Samsung Galaxy S22",
+        "reviewer": "Chris Williams",
+        "rating": 5,
+        "comment": "Amazing camera quality, one of the best Android phones.",
+        "date": "2024-11-04"
+    },
+    {
+        "id": "P003",
+        "product_name": "Samsung Galaxy S22",
+        "reviewer": "Sarah Lee",
+        "rating": 4,
+        "comment": "Solid performance, but the design is a bit bulky.",
+        "date": "2024-10-29"
+    },
+    {
+        "id": "P003",
+        "product_name": "Samsung Galaxy S22",
+        "reviewer": "Olivia Martin",
+        "rating": 5,
+        "comment": "Fantastic phone, especially for photographers!",
+        "date": "2024-10-27"
+    },
+    {
+        "id": "P003",
+        "product_name": "Samsung Galaxy S22",
+        "reviewer": "Peter King",
+        "rating": 4,
+        "comment": "A bit pricey, but performance justifies it.",
+        "date": "2024-10-24"
+    },
+    {
+        "id": "P004",
+        "product_name": "Google Pixel 7",
+        "reviewer": "Tom King",
+        "rating": 4,
+        "comment": "Good value for money, but not as powerful as some competitors.",
+        "date": "2024-10-30"
+    },
+    {
+        "id": "P004",
+        "product_name": "Google Pixel 7",
+        "reviewer": "Emma Davis",
+        "rating": 5,
+        "comment": "Love the AI camera features! Works great for photos.",
+        "date": "2024-10-25"
+    },
+    {
+        "id": "P004",
+        "product_name": "Google Pixel 7",
+        "reviewer": "Sophia Clark",
+        "rating": 4,
+        "comment": "Good, but I had some issues with the software updates.",
+        "date": "2024-10-18"
+    },
+    {
+        "id": "P004",
+        "product_name": "Google Pixel 7",
+        "reviewer": "Jack Martinez",
+        "rating": 4,
+        "comment": "Great phone for the price, but could use more storage options.",
+        "date": "2024-10-12"
+    }
+]

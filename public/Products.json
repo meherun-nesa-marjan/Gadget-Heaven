@@ -1,0 +1,179 @@
+[
+    {
+      "product_id": "P001",
+      "product_title": "iPhone 14 Pro",
+      "product_image": "https://i.ibb.co.com/FwFV2mz/elegant-smartphone-composition.jpg",
+      "category": "Phones",
+      "price": 999.99,
+      "description": "Apple's latest iPhone with ProMotion display and advanced camera system.",
+      "Specification": ["6.1-inch display", "A16 Bionic chip", "5G enabled"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "P002",
+      "product_title": "Phone SE",
+      "product_image": "https://i.ibb.co.com/FwFV2mz/elegant-smartphone-composition.jpg",
+      "category": "Phones",
+      "price": 399.99,
+      "description": "Affordable iPhone model with classic design and updated features.",
+      "Specification": ["4.7-inch display", "A15 Bionic chip", "Touch ID"],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "P003",
+      "product_title": "Samsung Galaxy S22",
+      "product_image": "https://i.ibb.co.com/FwFV2mz/elegant-smartphone-composition.jpg",
+      "category": "Phones",
+      "price": 849.99,
+      "description": "High-performance Android phone with impressive camera quality.",
+      "Specification": ["6.2-inch display", "Snapdragon 888", "120Hz refresh rate"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "P004",
+      "product_title": "Google Pixel 7",
+      "product_image": "https://i.ibb.co.com/FwFV2mz/elegant-smartphone-composition.jpg",
+      "category": "Phones",
+      "price": 599.99,
+      "description": "Google's latest phone with powerful AI-driven camera.",
+      "Specification": ["6.3-inch OLED", "Tensor G2", "Wireless charging"],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": "P005",
+      "product_title": "OnePlus 10 Pro",
+      "product_image": "https://i.ibb.co.com/FwFV2mz/elegant-smartphone-composition.jpg",
+      "category": "Phones",
+      "price": 729.99,
+      "description": "Premium Android device with super fast charging and sleek design.",
+      "Specification": ["6.7-inch AMOLED", "Snapdragon 8 Gen 1", "80W fast charging"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "P006",
+      "product_title": "MacBook Air M2",
+      "product_image": "https://i.ibb.co.com/y4Cq313/still-life-books-versus-technology.jpg",
+      "category": "MacBook",
+      "price": 1199.99,
+      "description": "Apple's latest MacBook Air with M2 chip and fanless design.",
+      "Specification": ["13.6-inch Retina", "M2 chip", "Up to 18 hours battery"],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "P007",
+      "product_title": "MacBook Pro 14-inch",
+      "product_image": "https://i.ibb.co.com/y4Cq313/still-life-books-versus-technology.jpg",
+      "category": "MacBook",
+      "price": 1999.99,
+      "description": "High-performance MacBook Pro with M1 Pro chip and Liquid Retina XDR display.",
+      "Specification": ["14.2-inch display", "M1 Pro chip", "16-core GPU"],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "P008",
+      "product_title": "Dell XPS 13",
+      "product_image": "https://i.ibb.co.com/y4Cq313/still-life-books-versus-technology.jpg",
+      "category": "Computers",
+      "price": 999.99,
+      "description": "Sleek ultrabook with edge-to-edge display and powerful performance.",
+      "Specification": ["13.4-inch display", "Intel i7", "Up to 16GB RAM"],
+      "availability": false,
+      "rating": 4.7
+    },
+    {
+      "product_id": "P009",
+      "product_title": "HP Spectre x360",
+      "product_image": "https://i.ibb.co.com/y4Cq313/still-life-books-versus-technology.jpg",
+      "category": "Computers",
+      "price": 1099.99,
+      "description": "2-in-1 convertible laptop with a vibrant touchscreen display.",
+      "Specification": ["13.5-inch display", "Intel i7", "Convertible design"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "P010",
+      "product_title": "Lenovo ThinkPad X1 Carbon",
+      "product_image": "https://i.ibb.co.com/y4Cq313/still-life-books-versus-technology.jpg",
+      "category": "Computers",
+      "price": 1249.99,
+      "description": "Lightweight business laptop with powerful performance and durability.",
+      "Specification": ["14-inch FHD", "Intel i7", "16GB RAM"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "P011",
+      "product_title": "Wireless Earbuds",
+      "product_image": "https://i.ibb.co.com/TLxvxvx/modern-wireless-earphones-with-case-simple-concrete-background.jpg",
+      "category": "Accessories",
+      "price": 59.99,
+      "description": "Compact and comfortable wireless earbuds with noise-canceling features.",
+      "Specification": ["Bluetooth 5.0", "Water-resistant", "12-hour battery life"],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "P012",
+      "product_title": "Laptop Cooling Pad",
+      "product_image": "https://i.ibb.co.com/TLxvxvx/modern-wireless-earphones-with-case-simple-concrete-background.jpg",
+      "category": "Accessories",
+      "price": 54.99,
+      "description": "Laptop cooling pad with quiet fans and adjustable height.",
+      "Specification": ["Dual fan cooling", "Adjustable height", "USB powered"],
+      "availability": true,
+      "rating": 4.3
+    },
+    {
+      "product_id": "P013",
+      "product_title": "Wireless Charging Pad",
+      "product_image": "https://i.ibb.co.com/TLxvxvx/modern-wireless-earphones-with-case-simple-concrete-background.jpg",
+      "category": "Accessories",
+      "price": 69.99,
+      "description": "Convenient wireless charging pad for multiple devices.",
+      "Specification": ["Fast charging", "Qi-compatible", "Sleek design"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "P014",
+      "product_title": "Surface Laptop 4",
+      "product_image": "https://i.ibb.co.com/y4Cq313/still-life-books-versus-technology.jpg",
+      "category": "Computers",
+      "price": 1299.99,
+      "description": "Microsoft's sleek laptop with a great display and long battery life.",
+      "Specification": ["13.5-inch PixelSense", "Intel i5", "256GB SSD"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "P015",
+      "product_title": "Google Pixel Buds Pro",
+      "product_image": "https://i.ibb.co.com/TLxvxvx/modern-wireless-earphones-with-case-simple-concrete-background.jpg",
+      "category": "Accessories",
+      "price": 199.99,
+      "description": "High-quality wireless earbuds with noise-canceling technology.",
+      "Specification": ["Active noise cancellation", "Google Assistant", "Wireless charging"],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "P016",
+      "product_title": "Asus ROG Gaming Laptop",
+      "product_image": "https://i.ibb.co.com/y4Cq313/still-life-books-versus-technology.jpg",
+      "category": "Computers",
+      "price": 1499.99,
+      "description": "High-performance gaming laptop with RGB keyboard and powerful GPU.",
+      "Specification": ["15.6-inch display", "NVIDIA RTX 3070", "16GB RAM"],
+      "availability": false,
+      "rating": 4.8
+    }
+  ]
+  
