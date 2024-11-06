@@ -4,11 +4,11 @@ Welcome to **Gadget Heaven**! Your ultimate destination for tech accessories, ga
 
 ## Live Website Link
 You can visit the live version of the website here:
-[**Gadget Heaven Live Website**](https://my-new-assignment-8.netlify.app/)
+[**https://my-new-assignment-8.netlify.app/**]()
 
 ## Requirement Document Link
 The detailed requirement document for this project is available at:
-[**Requirement Document**](file:///D:/projects/B10-A8-gadget-heaven-main/B10-A8-gadget-heaven-main/Batch-10_Assignment-08.pdf)
+[**file:///D:/projects/B10-A8-gadget-heaven-main/B10-A8-gadget-heaven-main/Batch-10_Assignment-08.pdf**]()
 
 ## React Fundamentals Used in the Project
 
