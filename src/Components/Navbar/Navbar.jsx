@@ -23,12 +23,15 @@ const Navbar = () => {
         { path: '/Statistics', element: 'Statistics' },
         { path: '/Dashboard', element: 'Dashboard' },
         { path: '/Reviwe', element: 'Reviwe' },
+        
     ];
     const navbarStyles = {
         '/': 'bg-[#9538E2]',
         '/Home': 'bg-[#9538E2] text-white',
         '/Statistics': 'bg-white w-full',
         '/Dashboard': 'bg-white w-full',
+        '/Dashboard/Dasboardcart': 'bg-white w-full',
+        '/Dashboard/Wishlist': 'bg-white w-full',
         '/Reviwe': 'bg-white w-full',
     };
 
@@ -63,8 +66,7 @@ const Navbar = () => {
                                     key={path}
                                     to={path}
                                     className={({ isActive }) =>
-                                        `font-semibold mx-4 text-xl ${location.pathname === '/' ? 'text-black' : isActive ? 'text-[#9538E2]' : 'text-black'}`
-                                    }
+                                        `font-semibold mx-4 text-xl ${location.pathname === '/' ? 'text-black' : isActive ? 'text-[#9538E2]' : 'text-black'}`}
                                 >
                                     {element}
                                 </NavLink>
@@ -101,14 +103,15 @@ const Navbar = () => {
 
                         <AiOutlineShoppingCart />
                         <span className="badge badge-sm indicator-item absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2">
-                            {favoriteProducts.length}
+                        {cartProducts.length}
                         </span>
                     </Link>
                     <Link className="bg-white relative rounded-full p-3">
 
                         <GrFavorite />
                         <span className="badge badge-sm indicator-item absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2">
-                            {cartProducts.length}
+                        {favoriteProducts.length}
+                           
                         </span>
                     </Link>
                 </div>

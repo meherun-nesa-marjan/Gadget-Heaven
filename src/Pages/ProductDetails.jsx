@@ -16,7 +16,7 @@ const ProductDetails = () => {
             <div className="absolute top-[30%] left-[25%] ">
             <Details product = {product} />
             </div>
-            <div className="h-52"></div> 
+            <div className="h-64"></div> 
         </div>
     );
 };

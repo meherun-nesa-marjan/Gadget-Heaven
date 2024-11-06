@@ -8,6 +8,7 @@ import ProductDetails from "../Pages/ProductDetails";
 import Dashboardcart from "../Components/Dashboardcart";
 import Wishlist from "../Components/Wishlist";
 import Reviwe from "../Components/Reviwe";
+import ErrorPage from "../Pages/ErrorPage";
 
 
 
@@ -15,10 +16,12 @@ const routes = createBrowserRouter([
     {
       path: "/",
       element: <Mainlayout />,
+      errorElement:<ErrorPage />,
       children:[
         {
          path:"/",
          element: <Home />,
+        
          loader: () => fetch ('../Category.json'),
          children:[
           {

@@ -84,7 +84,7 @@
       "price": 999.99,
       "description": "Sleek ultrabook with edge-to-edge display and powerful performance.",
       "Specification": ["13.4-inch display", "Intel i7", "Up to 16GB RAM"],
-      "availability": false,
+      "availability": true,
       "rating": 4.7
     },
     {

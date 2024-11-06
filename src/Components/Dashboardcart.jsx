@@ -2,11 +2,13 @@ import React, { useEffect, useState } from 'react';
 import { allCart, removeCart, clearCart } from "../Utils";
 import Dashcard from './Dashcard';
 import toast from "react-hot-toast";
+import { useNavigate } from 'react-router-dom';
 
 const Dashboardcart = () => {
     const [product, setProduts] = useState([]);
     const [totalPrice, setTotalPrice] = useState(0);
     const [showModal, setShowModal] = useState(false);
+    const navigate = useNavigate();
 
     useEffect(() => {
         const cart = allCart();
@@ -22,14 +24,13 @@ const Dashboardcart = () => {
         const total = updatedCart.reduce((sum, item) => sum + item.price, 0);
         setTotalPrice(total.toFixed(3));
     };
+
     const sortByPrice = () => {
         const sortedProducts = [...product].sort((a, b) => b.price - a.price);
         setProduts(sortedProducts);
-       
     };
 
     const handlePurchase = () => {
-        
         if (product.length > 0) {
             setShowModal(true);
         }
@@ -41,6 +42,8 @@ const Dashboardcart = () => {
         setTotalPrice(0);
         setShowModal(false);
         toast.success('Purchase successful! Thank you for your order.');
+        // Navigate to the home page after successful purchase
+        navigate('/');
     };
 
     const closeModal = () => {
@@ -61,15 +64,16 @@ const Dashboardcart = () => {
                         </button>
                         <button 
                             onClick={handlePurchase} 
-                            className="rounded-full ml-4 font-semibold py-3 px-10 text-white bg-[#9538E2]"
+                            className={`rounded-full ml-4 font-semibold py-3 px-10 text-white ${product.length === 0 ? 'bg-gray-400 cursor-not-allowed' : 'bg-[#9538E2]'}`}
+                            disabled={product.length === 0} // Disable button when cart is empty
                         >
                             Purchase
                         </button>
                     </div>
                 </div>
             </div>
-          
-           {product.length > 0 ? (
+
+            {product.length > 0 ? (
                 product.map(product => (
                     <Dashcard 
                         handleRemoveCart={handleRemoveCart}
@@ -80,6 +84,7 @@ const Dashboardcart = () => {
             ) : (
                 <p className="text-3xl text-gray-500">No data available</p>
             )}
+
             {showModal && (
                 <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
                     <div className="bg-white p-8 rounded-lg shadow-lg max-w-sm w-full">
