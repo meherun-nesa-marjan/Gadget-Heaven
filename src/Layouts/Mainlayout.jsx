@@ -1,43 +1,52 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from '../Components/Navbar/Navbar';
 import Footer from '../Components/Footer/Footer';
-import { Outlet } from 'react-router-dom';
-import { BrowserRouter as Link, useLocation } from 'react-router-dom';
+import { Outlet, useLocation } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
+
 const PageTitle = () => {
-const location = useLocation();  
+  const location = useLocation();
+
   useEffect(() => {
-    switch (location.pathname) {
-      case '/':
-        document.title = 'Home';
-        break;
-      case '/about':
-        document.title = 'About Us';
-        break;
-      case '/contact':
-        document.title = 'Contact Us';
-        break;
-      default:
-        document.title = 'My Awesome App';
-        break;
+    if (location.pathname.startsWith('/ProductDetails')) {
+      document.title = 'Product Details';
+    } else {
+      
+      switch (location.pathname) {
+        case '/':
+          document.title = 'Gadget Heaven';
+          break;
+        case '/Dashboard':
+          document.title = 'Dashboard';
+          break;
+        case '/Statistics':
+          document.title = 'Statistics';
+          break;
+        case '/Reviwe':
+          document.title = 'Review';
+          break;
+        default:
+          document.title = 'Gadget Heaven';
+          break;
+      }
     }
   }, [location]);
 
   return null;
 };
+
 const Mainlayout = () => {
-    return (
-        <div className='bg-gray-200'>
-            <Toaster />
-            <div className="">
-            <Navbar />
-            </div>
-            <div className="min-h-[calc(100vh-288px)]">
-                <Outlet />
-            </div>
-            <Footer />
-        </div>
-    );
+  return (
+    <div className='bg-gray-200'>
+      <Toaster />
+      <PageTitle />
+      <Navbar />
+      <div className="min-h-[calc(100vh-288px)]">
+        <Outlet />
+      </div>
+      <Footer />
+    </div>
+  );
 };
 
 export default Mainlayout;
