@@ -34,7 +34,6 @@ const Navbar = () => {
         '/Dashboard/Wishlist': 'bg-white w-full',
         '/Reviwe': 'bg-white w-full',
     };
-
     const getNavbarStyle = () => navbarStyles[location.pathname] || 'bg-white';
 
     return (

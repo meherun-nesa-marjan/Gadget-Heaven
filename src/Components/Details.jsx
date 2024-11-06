@@ -52,7 +52,7 @@ const Details = ({ product }) => {
                         <button
                             onClick={() => handleCart(product)}
                             className={`text-xl rounded-full border-2 p-4 mt-4 
-                                ${isCartDisabled ? 'bg-gray-400 text-gray-600 cursor-not-allowed' : 'bg-white'}`}
+                                ${isCartDisabled ||!availability ? 'bg-gray-400 text-gray-600 cursor-not-allowed' : 'bg-white'}`}
                             disabled={isCartDisabled}
                         >
                             <AiOutlineShoppingCart />

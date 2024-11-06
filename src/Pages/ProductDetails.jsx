@@ -7,13 +7,13 @@ const ProductDetails = () => {
     const { product } = location.state;
 
     return (
-        <div>
+        <div className='w-11/12 mx-auto'>
             <div className="relative">
             <DetailsBannar />
             </div>
 
           
-            <div className="absolute top-[30%] left-[25%] ">
+            <div className="absolute top-[30%] left-[20%] ">
             <Details product = {product} />
             </div>
             <div className="h-64"></div> 
