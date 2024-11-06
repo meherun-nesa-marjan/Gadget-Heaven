@@ -19,7 +19,7 @@ const Reviwe = () => {
            <div className="grid my-10 grid-cols-2">
            {
                 data.map(data =>(
-                    <div className="border-2 bg-white m-5 rounded-2xl p-5">
+                    <div key={data.comment}  className="border-2 bg-white m-5 rounded-2xl p-5">
 
                     <h2 className='font-bold text-xl'>Reviewer: {data.reviewer}</h2>
                     <p>Product: {data.product_name}</p>

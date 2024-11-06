@@ -8,7 +8,7 @@ const Navbar = () => {
     const [favoriteProducts, setFavoriteProducts] = useState([]);
     const [cartProducts, setCartProducts] = useState([]);
 
-
+ 
     const location = useLocation();
     useEffect(() => {
         const fav = allFavourite();
@@ -95,24 +95,25 @@ const Navbar = () => {
                 </div>
 
                 <div className="navbar-end gap-5 text-xl  ">
+                    
 
 
 
-                    <Link className="bg-white relative rounded-full p-3">
+                    <NavLink to='/Dashboard/Dasboardcart' className="bg-white relative rounded-full p-3">
 
                         <AiOutlineShoppingCart />
                         <span className="badge badge-sm indicator-item absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2">
                         {cartProducts.length}
                         </span>
-                    </Link>
-                    <Link className="bg-white relative rounded-full p-3">
+                    </NavLink>
+                    <NavLink to='/Dashboard/Wishlist' className="bg-white relative rounded-full p-3">
 
                         <GrFavorite />
                         <span className="badge badge-sm indicator-item absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2">
                         {favoriteProducts.length}
                            
                         </span>
-                    </Link>
+                    </NavLink>
                 </div>
             </div>
         </div>

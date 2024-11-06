@@ -2,8 +2,6 @@ import { Outlet, useLoaderData } from "react-router-dom";
 import Bannar from "../Components/Bannar";
 import Category from "../Components/Category";
 import BannarImg from "../Components/BannarImg";
-
-
 const Home = () => {
     const category = useLoaderData()
   
