@@ -33,7 +33,7 @@ const Details = ({ product }) => {
                         <button
                             onClick={() => handleCart(product)}
                             className={`text-xl rounded-full border-2 px-4 py-1 mt-4 
-                                ${isCartDisabled || !availability ? 'bg-gray-400 text-gray-600 cursor-not-allowed' : 'text-[#309C08] border-[#309C08] bg-[#ebf6e7]'}`}
+                                ${!availability ? 'bg-gray-400 text-gray-600 cursor-not-allowed' : 'text-[#309C08] border-[#309C08] bg-[#ebf6e7]'}`}
                             disabled={isCartDisabled || !availability}
                         >
                             {availability ? "In Stock" : "Stock Out"}
