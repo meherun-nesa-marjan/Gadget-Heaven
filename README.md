@@ -3,8 +3,8 @@
 Welcome to **Gadget Heaven**! Your ultimate destination for tech accessories, gadgets, and smart devices. Explore our collection of the latest accessories to take your tech experience to the next level.
 
 ## Live Website Link
-You can visit the live version of the website here:
-[https://gadgetheaven-app.netlify.app/]()
+You can visit the live version of the website here:https://gadgetheaven-app.netlify.app/
+
 
 ## Requirement Document Link
 The detailed requirement document for this project is available at:
